@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Polina Kisel">
+	<meta name = "description" content = "Site" >
+	<title>Engine Repair</title>
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<script defer src="/scripts/slider.js"></script>
+	<script defer src="/scripts/popup_contacts.js"></script>
+	<script defer src="/scripts/counter.js"></script>
+</head>
+<body>
+
+<div class="site" id="site">
+
+	<header class="header">
+
+		<div class="header_top">
+			<div class="content_part">
+				<div class="header_top_wraper">
+					<div class="nav">
+						<button class="nav_toggle">
+							<label for="nav_toggle">
+								<i class="fa fa-bars"></i>
+							</label>
+						</button>
+						
+						<input type="checkbox" id="nav_toggle">
+						<ul>
+							<li><a  id="color_orange" href="/index.html">Home</a></li>
+							<li><a href="/pages/services.html">Services</a></li>
+							<li class="logo_none">
+								<div>
+								<a class="a_logo" href="/index.html">
+									<img class="logo" src="img/logo.png" alt="logo company_img">
+									<span class="logo_span1">Engine Repair</span>
+									<span class="logo_span2">Service and Repair</span>
+								</a>
+								</div>
+							</li>
+							<li><a href="/pages/gallery.html">Gallery</a></li>
+							<li><a href="/pages/contacts.html">Contacts</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider">
+				<div class="slide_item">
+					<img src="img/slide1.jpg" alt="Первый слайд">
+					<div class="slideText">
+						<div class="slideText1">We provide highest quality </div>
+						<div class="slideText2">Towing services </div>
+						<div class="slideText3">Fast, courteous and inexpensive towing and <br> roadside assistance in San Diego.</div>
+					</div>
+				</div>
+			
+				<div class="slide_item">
+					<img src="img/slide2.jpg" alt="Второй слайд">
+					<div class="slideText">
+						<div class="slideText1">Praesent ut dolor tellus</div>
+						<div class="slideText2">Engine services</div>
+						<div class="slideText3">Nullam mauris dui, porta non lectus at,  <br> tempor imperdiet ex roadside.</div>
+					</div>
+				</div>
+			
+				<a class="prev" onclick="minusSlide()"><i class="fa  fa-angle-left slide_icon_item"></i></a>
+				<a class="next" onclick="plusSlide()"><i class="fa  fa-angle-right slide_icon_item"></i></a>
+			</div>
+
+		</div> 
+
+	</header>	
+
+	<section class="sections services">
+
+		<div class="content_part">
+
+			<div class="common_list">
+
+				<div class="common_center">
+					
+					<div class="common_head">OUR <strong>services</strong></div>
+					<div class="common_line"></div>
+					<div class="common_descript">Our professionals will perform diagnostic tests, fluid flush and fills, engine replacement, oil changes, and total vehicle overhauls.</div>
+				</div>
+
+				<div class="experts_gallery">
+					<div class="services_item">
+						<div class=services_icon_item>
+							<div class="services_oval"><i class="fa fa-bus services_icon_item"></i></div>	
+						</div>
+						<h3 class="text_center">Fire Insurance</h3>
+						<span class="text_center services_text">T-bone laborum esse tongue, consequat elit short ribs cow cupidatat sed fugiat fatback. Velit dolor frankfurter pork loin.</span>
+						<a href="/pages/services.html">
+							<div class="services_btn">Read more</div>
+						</a>
+					</div>
+					<div class="services_item">
+						<div class=services_icon_item>
+							<div class="services_oval"><i class="fa fa-wrench services_icon_item"></i></div>	
+						</div>
+						<h3 class="text_center">Motorcycle Towing</h3>
+						<span class="text_center services_text">T-bone laborum esse tongue, consequat elit short ribs cow cupidatat sed fugiat fatback. Velit dolor frankfurter pork loin.</span>
+						<a href="/pages/services.html">
+							<div class="services_btn">Read more</div>
+						</a>
+					</div>
+					<div class="services_item">
+						<div class=services_icon_item>
+							<div class="services_oval"><i class="fa fa-taxi"></i></div>	
+						</div>
+						<h3 class="text_center">Accident Insurance</h3>
+						<div class="text_center services_text">T-bone laborum esse tongue, consequat elit short ribs cow cupidatat sed fugiat fatback. Velit dolor frankfurter pork loin.</div>
+						<a href="/pages/services.html">
+							<div class="services_btn">Read more</div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="sections wedo">
+
+		<div class="wedo_all">
+
+			<div class="empty_column">
+
+			</div>
+
+			<div class="wedo_what">
+				
+				<div class="wedo_head">what <strong>we do</strong></div>
+				<div class="common_line"></div>
+				<div class="common_descript">Our professionals will perform diagnostic tests, fluid flush and fills, engine replacement, oil changes, and total vehicle overhauls.</div>
+				<div class="wedo">
+					<div class="wedo_rise_f">
+						<div class="wedo_rise_54 wedo_rise_orange">
+							54%
+						</div>
+					</div>
+					<div class="wedo_rise_f">
+						<div class="wedo_rise_71 wedo_rise_orange">
+							71%
+						</div>
+					</div>
+					<div class="wedo_rise_f">
+						<div class="wedo_rise_88 wedo_rise_orange">
+							88%
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="wedo_cont_img">
+				<img class=wedo_img src="img/wedo.jpg" alt="picture">
+			</div>
+			
+		</div>
+
+	</section>
+
+	<section class="sections progress">
+
+		<div class="content_part">
+			<div class="progress_list">
+				<div class="picture_item">
+					<div class="picture_progress">
+						<i class="fa fa-rocket"></i>
+					</div>
+					<h3 class="picture_h3"></h3>
+					<span class="text_center services_text">TECHNICIALS</span>
+				</div>
+				<div class="picture_item">
+					<div class="picture_progress">
+						<i class="fa fa-battery-2"></i>
+					</div>	
+					<h3 class="picture_h3">240</h3>
+					<span class="text_center services_text">TECHNICIALS</span>
+				</div>
+				<div class="picture_item">
+					<div class="picture_progress">
+						<i class="fa fa-truck"></i>
+					</div>
+					<h3 class="picture_h3">198</h3>
+					<span class="text_center services_text">TECHNICIALS</span>
+				</div>
+				<div class="picture_item">
+					<div class="picture_progress">
+						<i class="fa fa-unlock-alt"></i>
+					</div>
+					<h3 class="picture_h3">113</h3>
+					<span class="text_center services_text">TECHNICIALS</span>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+	<section class="sections experts">
+
+		<div class="content_part">
+
+			<div class="common_list">
+
+				<div class="common_center">
+					
+					<div class="common_head">OUR <strong>EXPERTS</strong></div>
+					<div class="common_line"></div>
+					<div class="common_descript">Our professionals will perform diagnostic tests, fluid flush and fills, engine replacement, oil changes, and total vehicle overhauls.</div>
+				</div>
+
+				<div class="experts_gallery">
+					<div class="experts_item">
+						<img class=exsperts_img src="img/experts1.jpg" alt="picture">
+						<h3 class="text_center">DANIEL</h3>
+						<span class="text_center  experts_item_sp">Sales manager</span>
+						<span class="text_center">Meatloaf laborum velit kielbasa. Drumstick sirloin lorem chicken swine biltong in short ribs duis bresaola.</span>
+					</div>
+					<div class="experts_item">
+						<img class=exsperts_img src="img/experts2.jpg" alt="picture">
+						<h3 class="text_center">CURTIS HARRINGTON</h3>
+						<span class="text_center experts_item_sp">Manager</span>
+						<span class="text_center">MProsciutto t-bone jerky, sirloin filet mignon jowl pork chop beef ribs bacon. Pork loin pig tenderloin meatball.</span>
+					</div>
+					<div class="experts_item">
+						<img class=exsperts_img src="img/experts3.jpg" alt="picture">
+						<h3 class="text_center">ADAM RUSSELL</h3>
+						<div class="text_center experts_item_sp">Director</div>
+						<div class="text_center">Meatloaf laborum velit kielbasa. Drumstick sirloin lorem chicken swine biltong in short ribs duis bresaola.</div>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="customer_list">
+		<div class="content_part">
+			<div class="list_cust">
+				<img src="img/logo_client_1.png" alt="picture">
+			</div>
+
+			<div class="list_cust"></div>
+
+			<div class="list_cust">
+				<img src="img/logo_client_2.png" alt="picture">
+			</div>
+
+			<div class="list_cust"></div>
+
+			<div class="list_cust">
+				<img src="img/logo_client_3.png" alt="picture">
+			</div>
+
+			<div class="list_cust"></div>
+
+			<div class="list_cust">
+				<img src="img/logo_client_4.png" alt="picture">
+			</div>
+
+			<div class="list_cust">
+				<img src="img/logo_client_5.png" alt="picture">
+			</div>
+
+			<div class="list_cust">
+				<img src="img/logo_client_6.png" alt="picture">
+			</div>
+
+			<div class="list_cust">
+				<img src="img/logo_client_1.png" alt="picture">
+			</div>
+		</div>
+	</section>
+
+	<section class="sections portfolio">
+
+		<div class="content_part">
+
+			<div class="common_list">
+
+				<div class="common_center">
+					
+					<div class="common_head">OUR <strong>PORTFOLIO</strong></div>
+					<div class="common_line"></div>
+					<div class="common_descript">Our professionals will perform diagnostic tests, fluid flush and fills, engine replacement, oil changes, and total vehicle overhauls.</div>
+				</div>
+
+				<div class="portfolio_gallery">
+					<a href="/pages/gallery.html"><img class=portf_img src="img/portfolio_img3.jpg" alt="picture"></a>
+					<a href="/pages/gallery.html"><img class=portf_img src="img/portfolio_img4.jpg" alt="picture"></a>
+					<a href="/pages/gallery.html"><img class=portf_img src="img/portfolio_img2.jpg" alt="picture"></a>
+					<a href="/pages/gallery.html"><img class=portf_img src="img/portfolio_img1.jpg" alt="picture"></a>
+					<a href="/pages/gallery.html"><img class=portf_img src="img/portfolio_img5.jpg" alt="picture"></a>
+					<a href="/pages/gallery.html"><img class=portf_img src="img/portfolio_img2.jpg" alt="picture"></a>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="sections booking">
+
+		<div class="content_part">
+
+			<div class="common_list">
+
+				<div class="common_center">
+					
+					<div class="common_head">ONLINE <strong>BOOKING</strong></div>
+					<div class="common_line"></div>
+					<div class="common_descript">Our professionals will perform diagnostic tests, fluid flush and fills, engine replacement, oil changes, and total vehicle overhauls.</div>
+				
+					
+
+				</div>
+
+				<div class="form_home">
+					<div class="picture_form_container"><img class="picture_form_home" src="img/wrench.jpg" alt="picture"></div>
+					<div class="form_wraper">
+						<form class="form_prop">
+							<input class="form_prop full_name" type="text" id="name" placeholder="Full Name">
+							<input class="form_prop" type="text" id="email" placeholder="Email">
+							<input class="form_prop subject" type="text" id="subject" placeholder="Subjec">
+							<textarea class="form_prop" id="message" placeholder="Message"></textarea>
+							<input class="form_prop send_form_cont" type="submit" id="submit" value="send message">
+						</form>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="sections blog">
+
+		<div class="content_part">
+
+			<div class="common_list">
+
+				<div class="common_center">
+					
+					<div class="common_head">OUR <strong>BLOG</strong></div>
+					<div class="common_descript">ANYWHERE, ANYTIME TOWING</div>
+					<div class="common_line"></div>	
+
+				</div>
+
+				<div class="blog_general">
+					<div class="blog_item">
+						<div><img class="blog_img" src="img/blog1.jpg" alt="picture"></div>
+						<div class="blog_line"></div>
+						<div class="blog_text">
+							<h3 class="text_center">Burgdoggen Andouille Turducken Kielbasa</h3>
+							<div class="text_center">Bresaola t-bone bacon ribeye frankfurter swine sausage beef shank. Spare ribs swine fatback meatloaf tail sausage chicken. Swine pork t-bone</div>
+							<div class="blog_date text_center">may 16, 2017</div>
+							<div class="blog_author text_center">by victorbrown</div>
+						</div>
+					</div>
+					<div class="blog_item">
+						<div><img class="blog_img" src="img/blog2.jpg" alt="picture"></div>
+						<div class="blog_line"></div>
+						<div class="blog_text">
+							<h3 class="text_center">Corned Beef Pork Belly Brisket Tri-tip Rump Sausage</h3>
+							<div class="text_center">Bresaola t-bone bacon ribeye frankfurter swine sausage beef shank. Spare ribs swine fatback meatloaf tail sausage chicken. Swine pork t-bone</div>
+							<div class="blog_date text_center">may 15, 2017</div>
+							<div class="blog_author text_center">by victorbrown</div> 
+						</div>
+					</div>
+					<div class="blog_item">
+						<div><img class="blog_img" src="img/blog3.jpg" alt="picture"></div>
+						<div class="blog_line"></div>
+						<div class="blog_text">
+							<h3 class="text_center">We provide highest quality towing services</h3>
+							<div class="text_center">Bresaola t-bone bacon ribeye frankfurter swine sausage beef shank. Spare ribs swine fatback meatloaf tail sausage chicken. Swine pork t-bone</div>
+							<div class="blog_date text_center">may 14, 2017</div>
+							<div class="blog_author text_center">by victorbrown</div> 
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="sections footer">
+
+		<div class="content_part">
+
+			<div class="footer_general">
+
+				<div class="footer_info">
+					<h3 class="h3_footer">ENGINE REPAIR</h3>
+					<div class="common_line"></div>
+					<img class="footer_logo" src="img/logo.png" alt="picture">
+					<div class="footer_text">Shank duis pancetta kevin ullamco tempor short loin pig lorem officia ut ham hock incididunt irure drumstick sage ball tip tri-tip.</div>
+					<div class=footer_icon>
+						<a href="https://twitter.com/#" target="_blank">
+							<i class="fa fa-twitter footer_icon_item"></i>
+						</a>
+						<a href="https://facebook.com/#" target="_blank">
+							<i class= "fa fa-facebook footer_icon_item"></i>
+						</a>
+						<a href="https://plus.google.com/#" target="_blank">
+							<i class= "fa fa-google footer_icon_item"></i>
+						</a>
+						<a href="https://linkedin.com/#" target="_blank">
+							<i class= "fa fa-linkedin footer_icon_item"></i>
+						</a>
+						<a href="https://pinterest.com/#" target="_blank">
+							<i class= "fa fa-pinterest-p footer_icon_item"></i>
+						</a>
+						
+					</div>
+				</div>
+				<div class="footer_links">
+					<h3 class="h3_footer">USEFUL LINKS</h3>
+					<div class="common_line"></div>
+					<ul class="footer_link_list">
+						<li>
+							<a href="/index.html">
+								<i class="fa fa-angle-right footer_icon_item color_orange"></i>
+								<span>Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="/pages/services.html">
+								<i class="fa fa-angle-right footer_icon_item color_orange"></i>
+								<span>Services</span>
+							</a>
+						</li>
+						<li>
+							<a href="/pages/gallery.html">
+								<i class="fa fa-angle-right footer_icon_item color_orange"></i>
+								<span>Gallery</span>
+							</a>
+						</li>
+						<li>
+							<a href="/pages/contacts.html">
+								<i class="fa fa-angle-right footer_icon_item color_orange"></i>
+								<span>Contacts</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_get">
+					<h3 class="h3_footer">GET IN TOUCH</h3>
+					<div class="common_line"></div>
+					<ul class="footer_cont">
+						<li class="footer_address">
+							<i class="fa fa-map-marker footer_icon_item color_orange"></i>
+							<span>2551 Alfred Drive Brooklyn, NY</span>
+						</li>
+						<li class="footer_email">
+							<i class="fa fa-envelope footer_icon_item color_orange"></i>
+							<span>support@towy.com</span>
+						</li>
+						<li class="footer_tel">
+							<i class="fa fa-phone footer_icon_item color_orange"></i>
+							<span>718-250-4467</span>
+						</li>
+						<li class="footer_time">
+							<i class="fa fa-clock-o footer_icon_item color_orange"></i>
+							<span>24 hours a day, 7 days a week</span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<div class="copyright text_center">
+		24/7 Towy - Towing Services <span class="red">&#10084;</span> All Rights Reserved © 2017
+	</div>
+
+</div>
+
+</body>
+</html>
